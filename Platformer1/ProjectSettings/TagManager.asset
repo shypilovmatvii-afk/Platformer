@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Platform
   - Wall
+  - HangPoint
+  - Coin
+  - Enemy
   layers:
   - Default
   - TransparentFX
