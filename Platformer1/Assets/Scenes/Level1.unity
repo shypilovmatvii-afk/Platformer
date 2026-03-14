@@ -124,6 +124,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3564026850829729314, guid: 4da9b9761848a1848868ed8a0c18f051, type: 3}
   m_PrefabInstance: {fileID: 1066367654}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &17018699
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 702951238938858560, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Direction","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783977330371952057, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_Name
+      value: Ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783977330371952057, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256275045432204322, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944516430477528958, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1131
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944516430477528958, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.01016
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944516430477528958, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944516430477528958, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944516430477528958, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944516430477528958, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944516430477528958, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944516430477528958, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944516430477528958, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944516430477528958, guid: bd941907fc3941042903433ce673710f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd941907fc3941042903433ce673710f, type: 3}
 --- !u!1001 &49731157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1837,7 +1908,7 @@ GameObject:
   - component: {fileID: 770203940}
   - component: {fileID: 770203939}
   - component: {fileID: 770203938}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WallTilemap
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2196,7 +2267,7 @@ GameObject:
   - component: {fileID: 855703092}
   - component: {fileID: 855703091}
   - component: {fileID: 855703090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundTilemap
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4047,7 +4118,7 @@ GameObject:
   - component: {fileID: 2010493591}
   - component: {fileID: 2010493590}
   - component: {fileID: 2010493589}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlatformsTilemap
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -5328,3 +5399,4 @@ SceneRoots:
   - {fileID: 1277109022}
   - {fileID: 365261424}
   - {fileID: 2054423423}
+  - {fileID: 17018699}
